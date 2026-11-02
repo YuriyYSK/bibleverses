@@ -6,7 +6,6 @@ OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
 
 { Справка 
 5 - Пятекнижие Моисеева
-10 - Помощь
 }
 
 PROGRAM BIBLEPASSAGES;
@@ -18,7 +17,7 @@ VAR
 	WHAT_STIH: INTEGER;
 
 BEGIN
-	WRITE('Команда: ');
+	WRITE('Команда (10 для таблицы команд): ');
 	READLN(COMMAND);
 	IF COMMAND = 5 THEN
 	BEGIN
