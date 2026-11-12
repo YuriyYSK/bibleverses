@@ -205,6 +205,20 @@ BEGIN
 					WRITELN('И изгнал Адама, и поставил на востоке у сада Едемского Херувима и пламенный меч обращающийся, чтобы охранять путь к дереву жизни.')
 				ELSE WRITELN('NOT FOUND');
 			END
+			ELSE IF WHAT_GLAVA = 4 THEN
+			BEGIN
+				WRITE('Какой стих (1, 2..., 26) ');
+				READLN(WHAT_STIH);
+				IF WHAT_STIH = 1 THEN
+					WRITELN('Адам познал Еву, жену свою; и она зачала, и родила Каина, и сказала: приобрела я человека от Господа.')
+				ELSE IF WHAT_STIH = 2 THEN
+					WRITELN('И ещё родила брата его, Авеля. И был Авель пастырь овец, а Каин был земледелец.')
+				ELSE IF WHAT_STIH = 3 THEN
+					WRITELN('Спустя несколько времени, Каин принёс от плодов земли дар Господу,')
+				ELSE IF WHAT_STIH = 4 THEN
+					WRITELN('и Авель также принёс от первородных стада своего и от тука их. И призрел Господь на Авеля и на дар его,')
+				ELSE WRITELN('NOT FOUND');
+			END
 			ELSE WRITELN('NOT FOUND');
 		END
 		ELSE WRITELN('NOT FOUND'); 
